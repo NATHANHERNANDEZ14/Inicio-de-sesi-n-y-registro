@@ -32,7 +32,7 @@ function Signup() {
                         </label>
                         <input
                         type="text"
-                        placeholder="Enter name"
+                        placeholder="Introducir nombre"
                         autoComplete="off"
                         name="email"
                         className="form-control runded-0"
@@ -45,7 +45,7 @@ function Signup() {
                         </label>
                         <input
                         type="email"
-                        placeholder="Enter email"
+                        placeholder="Introducir correo electronico"
                         autoComplete="off"
                         name="email"
                         className="form-control runded-0"
@@ -59,7 +59,7 @@ function Signup() {
                         </label> 
                         <input
                         type="password"
-                        placeholder="Enter password "
+                        placeholder="Introducir contraseña"
                         name="password"
                         className="form-control rounded-0"
                         onChange={(e) => setPassword(e.target.value)}

@@ -31,7 +31,7 @@ function Login() {
                         </label>
                         <input
                             type="email"
-                            placeholder="Enter email"
+                            placeholder="Introducir correo electrónico"
                             autoComplete="off"
                             name="email"
                             className="form-control rounded-0"
@@ -45,7 +45,7 @@ function Login() {
                         </label>
                         <input
                             type="password"
-                            placeholder="Enter password"
+                            placeholder="Introducir contraseña"
                             name="password"
                             className="form-control rounded-0"
                             onChange={(e) => setPassword(e.target.value)}
